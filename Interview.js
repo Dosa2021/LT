@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Language extends React.Component {
+class Interview extends React.Component {
   render() {
     return (
       <div className='language-item'>
@@ -12,4 +12,4 @@ class Language extends React.Component {
 }
 
 // Languageコンポーネントをエクスポートしてください
-export default Language;
+export default Interview;

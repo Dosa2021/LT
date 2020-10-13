@@ -26,21 +26,175 @@ p {
   text-align:center;
 }
 
-.language {
-  height: 100px;
-  width: 810px;
-  padding: 0px;
-  margin: auto;
-  background: #ddd;
+.Navi {
+  padding: 10px 0;
 }
 
-.Header2 {
+.Navi-inner {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.Navi-logo {
+  display: inline-block;
+}
+
+.Navi-logo h1 {
+  font-size: 20px;
+}
+
+.Navi-logo p {
+  color: #b1c0c0;
+  font-size: 12px;
+}
+
+.Navi-inner ul {
+  float: right;
+}
+
+.Navi-inner li {
+  color: #2b546a;
+  display: inline-block;
+  padding-left: 16px;
+}
+
+
+
+.HeaderTop {
   height: 300px;
   width: 2000px;
   padding: 0px;
   margin: auto;
   background: #87ceeb;
 }
+
+.HeaderTop-image {
+  height: 300px;
+  width: 2000px;
+  padding: 0px;
+  margin: auto;
+  background: #;
+}
+
+
+
+.HeaderLink {
+  height: 200px;
+  width: 810px;
+  padding: 0 70px;
+  margin: auto;
+}
+
+.HeaderLink-item {
+  width: 100px;
+  height: 50px;
+  background: #ffffff;
+  margin: 15px;
+  float: left;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+  border-radius: 3px;
+  position: relative;
+}
+
+.HeaderLink-name {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+.HeaderLink-image {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  margin: auto;
+  height: auto;
+  width: 60%;
+}
+
+
+
+.News {
+  padding: 20px 0;
+  background: #87ceeb;
+}
+
+.News-inner {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.News-logo {
+  display: inline-block;
+}
+
+.News-logo img {
+  height: 20px;
+}
+
+.News-logo p {
+  color: #b1c0c0;
+  font-size: 12px;
+}
+
+.News-inner ul {
+  float: right;
+}
+
+.News-inner li {
+  color: #2b546a;
+  display: inline-block;
+  padding-left: 16px;
+}
+
+
+
+.Service {
+  height: 300px;
+  width: 2000px;
+  padding: 0px;
+  margin: auto;
+  background: #ddd;
+}
+
+.Store {
+  height: 300px;
+  width: 2000px;
+  padding: 0px;
+  margin: auto;
+  background: #87ceeb;
+}
+
+.Interview {
+  height: 300px;
+  width: 2000px;
+  padding: 0px;
+  margin: auto;
+  background: #ddd;
+}
+
+.Company {
+  height: 300px;
+  width: 2000px;
+  padding: 0px;
+  margin: auto;
+  background: #87ceeb;
+}
+
+.Bottom {
+  height: 300px;
+  width: 2000px;
+  padding: 0px;
+  margin: auto;
+  background: #ddd;
+}
+
+
+
+
 
 .language-item {
   width: 24px;
