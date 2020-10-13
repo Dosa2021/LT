@@ -3,28 +3,11 @@ html {
   background: #f9fbfe;
 }
 
-h1, h2, h3, h4, h5, h6, p, div {
-   color: #2b546a;
-   font-weight: normal;
-}
 
-h1 {
-  font-size: 1.5rem;
-}
 
-body {
-  margin: 0;
-  padding: 0;
-}
 
-h1 {
-  padding-top: 0px;
-  text-align:center;
-}
 
-p {
-  text-align:center;
-}
+
 
 .Navi {
   padding: 10px 0;
@@ -120,10 +103,12 @@ p {
 .News {
   padding: 20px 0;
   background: #87ceeb;
+  width: 2000px;
+  height: 400px;
+
 }
 
 .News-inner {
-  max-width: 1040px;
   margin: 0 auto;
 }
 
@@ -141,13 +126,11 @@ p {
 }
 
 .News-inner ul {
-  float: right;
+  text-align: center;
 }
 
 .News-inner li {
   color: #2b546a;
-  display: inline-block;
-  padding-left: 16px;
 }
 
 
@@ -184,21 +167,62 @@ p {
   background: #87ceeb;
 }
 
-.Bottom {
-  height: 300px;
-  width: 2000px;
+.Footer {
+  height: 400px;
+  width: 1000px;
   padding: 0px;
   margin: auto;
-  background: #ddd;
+}
+
+.Footer h1{
+  font-size: 20px;
+}
+
+.Footer h2{
+  font-size: 18px;
+}
+
+.Footer li{
+  list-style: none;
+}
+
+
+
+.Footer-group {
+  height: 400px;
+  width: 250px;
+  padding: 0px;
+  float: left;
+}
+
+.Footer-salon {
+  height: 400px;
+  width: 250px;
+  padding: 0px;
+  float: left;
+}
+
+.Footer-about {
+  height: 400px;
+  width: 250px;
+  padding: 0px;
+  float: left;
+}
+
+.Footer-info {
+  height: 400px;
+  width: 250px;
+  padding: 0px;
+  float: left;
 }
 
 
 
 
 
-.language-item {
-  width: 24px;
-  height: 25px;
+.Footer-item {
+  width: 240px;
+  height: 250px;
   background: #ffffff;
   margin: 15px;
   float: left;
@@ -207,16 +231,16 @@ p {
   position: relative;
 }
 
-.language-name {
+.Footer-name {
   position: absolute;
   left: 0;
   right: 0;
-  top: 0px;
+  top: 40px;
   margin: auto;
   text-align: center;
 }
 
-.language-image {
+.Footer-image {
   position: absolute;
   left: 0;
   right: 0;

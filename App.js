@@ -8,7 +8,7 @@ import Service from './Service';
 import Store from './Store';
 import Interview from './Interview';
 import Company from './Company';
-import Bottom from './Bottom';
+import Footer from './Footer';
 
 class App extends React.Component {
   render() {
@@ -66,10 +66,11 @@ class App extends React.Component {
           <Company />
         </div>
 
-        <div className="Bottom">
-          <p>bottom</p>
+        <div className="Footer">
+          <Footer/>
+
+
           {/* Languageコンポーネントを呼び出してください */}
-          <Bottom />
         </div>
 
       </div>
