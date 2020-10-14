@@ -28,6 +28,9 @@ class Service extends React.Component {
           定額制でわかりやすい料金と相談しやすいネイリストがお待ちしております。</p>
         </div>
 
+        <div className='Service-button'>
+          <a><button>サービスを詳しく見る</button></a>
+        </div>
 
       </div>
     );

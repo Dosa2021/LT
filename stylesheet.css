@@ -3,12 +3,6 @@ html {
   background: #f9fbfe;
 }
 
-
-
-
-
-
-
 .Navi {
   height: 30px;
   padding: 10px 0;
@@ -47,11 +41,11 @@ html {
 .HeaderTop {
   height: 450px;
   width: 1450px;
-  padding-top: 150px;
+  padding-top: 100px;
   float: left;
   background: #;
   background-size: cover;
-  background-image: url(https://lh3.googleusercontent.com/proxy/6inMnUrLEUQoPYB_9Aw95xrenvf8mgE_rEzKrZwDX6r1K9AREvTJtQmrRAQi9hyBDEgCjOAn5mTP-DE9fzq21lEOx3CO_wGx3eqjD-CL);
+  background-image: url(https://lh3.googleusercontent.com/proxy/AUYBdJmjbVKq6duaYkl0HGy0O6Ih2FVps9CaNxg2MmzLKKoCU5oTPiyGjbvTYohotO6UGjoz59rKHN6nwg6FBmmW8-9uTlVJQKOn7nn0);
 }
 
 .HeaderTop h1 {
@@ -156,8 +150,9 @@ html {
 }
 
 
+
 .Service-menu {
-  height: 700px;
+  height: 580px;
   width: 1450px;
   padding: 0px;
   margin: auto;
@@ -168,8 +163,6 @@ html {
 .Service-menu h1 {
   font-size: 20px;
   text-align: center;
-
-
 }
 
 .Service-hair {
@@ -190,9 +183,6 @@ html {
   font-size: 15px;
   text-align: center;
 }
-
-
-
 
 .Service-list {
   height: 400px;
@@ -219,9 +209,19 @@ html {
   text-align: center;
 }
 
+.Service-button {
+  height: 50px;
+  width: 1450px;
+  padding: 0px;
+  margin: auto;
+  float: left;
+  background: #;
+}
 
-
-
+.Service-button button {
+  margin-top: 50px;
+  margin-left: 665px;
+}
 
 
 
@@ -234,29 +234,124 @@ html {
   background: #87ceeb;
 }
 
-.Interview {
-  height: 300px;
-  width: 2000px;
+
+
+.Interview-menu {
+  height: 580px;
+  width: 1450px;
   padding: 0px;
   margin: auto;
   float: left;
-  background: #ddd;
+  opacity: ;
+  background: #;
+  background-size: cover;
+  background-image: url(https://cdn.4travel.jp/img/thumbnails/imk/travelogue_pict/18/31/99/650x_18319946.jpg?updated_at=1281578589);
 }
 
-.Company {
-  height: 300px;
-  width: 2000px;
+.Interview-menu h1 {
+  text-align: center;
+}
+
+.Interview-1 {
+  height: 400px;
+  width: 300px;
+  padding-left: 240px;
+  opacity: 4.0;
+  background: #fff;
+  float: left;
+}
+
+.Interview-1 img {
+  height: 250px;
+  width: 300px;
+}
+
+.Interview-2 {
+  height: 400px;
+  width: 300px;
+  padding-left: 25px;
+  background: #fff;
+  float: left;
+}
+
+.Interview-2 img {
+  height: 250px;
+  width: 300px;
+}
+
+
+
+.Company-menu {
+  height: 450px;
+  width: 1450px;
   padding: 0px;
   margin: auto;
   float: left;
-  background: #87ceeb;
+  background: #fffafa;
 }
+
+.Company-main {
+  height: 350px;
+  width: 1000px;
+  margin-top: 50px;
+  margin-left: 225px;
+  float: left;
+  background: #fffafa;
+}
+
+.Company-main img {
+  height: 350px;
+  width: 400px;
+  float: left;
+}
+
+.Company-text {
+  height: 300px;
+  width: 600px;
+  float: left;
+  background: #;
+}
+
+.Company-text h1 {
+  text-align: center;
+}
+
+.Company-text p {
+  padding-left: 15px;
+  padding-right: 5px;
+}
+
+.Company-info {
+  height: 30px;
+  width: 200px;
+  padding-top: 10px;
+  margin-top: 40px;
+  margin-left: 70px;
+  float: left;
+  color: #ffffff;
+  background: #ff0000;
+  text-align: center;
+}
+
+.Company-q {
+  height: 30px;
+  width: 200px;
+  padding-top: 10px;
+  margin-top: 40px;
+  margin-left: 70px;
+  float: left;
+  color: #ffffff;
+  background: #0000ff;
+  text-align: center;
+}
+
+
 
 .Recruit {
   height: 300px;
   width: 600px;
   background: #ddd;
-  background-image: url(https://lh3.googleusercontent.com/proxy/dxy0zWn3C1aH9bzmIn7drOcmyIXCpM2PMK3xqf51lIE2URxZzLq3WqTEPRiwfNrgOpBwbgbP28YMxMM_-bauhUa7r_MKZ8YZRA8H9aJj-ja_qlxcT1-CYaxdrfOqkQ);
+  background-image: url(https://lh3.googleusercontent.com/proxy/Z5GBK4sK8Q_BV5f7kS5IuoSsDlvf5HSVt9YDP5jL_GgDGWsm6fas3Lic5hGhWhoms570gMVkSEoFNLIkfnjBmZsEtjhbLl6ibo69rMIZCcAJb6J57Cl4lHccTYl-qg);
   background-size: cover;
   margin: 0 auto;
   float: left;
@@ -283,8 +378,6 @@ html {
 .Footer li{
   list-style: none;
 }
-
-
 
 .Footer-group {
   height: 400px;
@@ -313,10 +406,6 @@ html {
   padding: 0px;
   float: left;
 }
-
-
-
-
 
 .Footer-item {
   width: 240px;

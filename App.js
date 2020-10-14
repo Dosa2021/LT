@@ -50,13 +50,11 @@ class App extends React.Component {
         </div>
 
         <div className="Interview">
-          <p>Interview</p>
           {/* Languageコンポーネントを呼び出してください */}
           <Interview />
         </div>
 
         <div className="Company">
-          <p>会社情報</p>
           {/* Languageコンポーネントを呼び出してください */}
           <Company />
         </div>
