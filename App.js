@@ -8,12 +8,19 @@ import Service from './Service';
 import Store from './Store';
 import Interview from './Interview';
 import Company from './Company';
+import Recruit from './Recruit';
 import Footer from './Footer';
 
 class App extends React.Component {
+  constructor(props) {
+		super(props);
+    this.state = {active: false};
+	}
+
   render() {
     return (
       <div>
+        <button onClick={e => this.setState({active: true})}>{this.state.active ? 123 : 987}</button>
           {/* Languageコンポーネントを呼び出してください */}
           <Navi />
 
@@ -23,18 +30,7 @@ class App extends React.Component {
         </div>
 
         <div className='HeaderLink'>
-          <HeaderLink
-            name='HTML & CSS'
-            image='https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/html.svg'
-          />
-          <HeaderLink
-            name='JavaScript'
-            image='https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/es6.svg'
-          />
-          <HeaderLink
-            name='React'
-            image='https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/react.svg'
-          />
+          <HeaderLink/>
         </div>
 
         <div className="News">
@@ -43,7 +39,6 @@ class App extends React.Component {
         </div>
 
         <div className="Service">
-          <p>5 Service</p>
           {/* Languageコンポーネントを呼び出してください */}
           <Service />
         </div>
@@ -66,10 +61,13 @@ class App extends React.Component {
           <Company />
         </div>
 
+        <div className="Recruit">
+          <Recruit/>
+          {/* Languageコンポーネントを呼び出してください */}
+        </div>
+
         <div className="Footer">
           <Footer/>
-
-
           {/* Languageコンポーネントを呼び出してください */}
         </div>
 

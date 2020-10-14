@@ -3,9 +3,16 @@ import React from 'react';
 class HeaderTop extends React.Component {
   render() {
     return (
-      <div className='HeaderTop-item'>
-        <div className='HeaderTop-name'></div>
-        <img className='HeaderTop-image' src='https://lh3.googleusercontent.com/proxy/Lvu4KwmJItQ19hm2ROwtAckHfi0chv5_dpsQryUDJP7ligM6iJhz7vH_kPSUB1IvJ5s__UcWfHg-SSLkLoMp0kH51-DVWbAAcbE8Ggwx' />
+      <div className='HeaderTop-text'>
+        <div>
+          <h1>あなたのためのサロンがここにある。</h1>
+        </div>
+          <p>美を通じ感動を創り出し、笑顔の輪を広げます。</p>
+          <p>笑顔が家庭、職場、学校で周りに伝わり、</p>
+          <p>明日への活力の源を発信し続ける</p>
+          <p>そんな空間を創り出すカンパニーです。</p>
+          <p><button className='HeaderTop-button'>お近くのサロンを探す</button></p>
+
       </div>
     );
   }

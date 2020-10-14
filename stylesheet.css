@@ -10,11 +10,12 @@ html {
 
 
 .Navi {
+  height: 30px;
   padding: 10px 0;
 }
 
 .Navi-inner {
-  max-width: 1040px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -44,110 +45,192 @@ html {
 
 
 .HeaderTop {
-  height: 300px;
-  width: 2000px;
-  padding: 0px;
-  margin: auto;
-  background: #87ceeb;
+  height: 450px;
+  width: 1450px;
+  padding-top: 150px;
+  float: left;
+  background: #;
+  background-size: cover;
+  background-image: url(https://lh3.googleusercontent.com/proxy/6inMnUrLEUQoPYB_9Aw95xrenvf8mgE_rEzKrZwDX6r1K9AREvTJtQmrRAQi9hyBDEgCjOAn5mTP-DE9fzq21lEOx3CO_wGx3eqjD-CL);
 }
 
-.HeaderTop-image {
-  height: 300px;
-  width: 2000px;
-  padding: 0px;
-  margin: auto;
-  background: #;
+.HeaderTop h1 {
+  text-align: center;
 }
+
+.HeaderTop p {
+  text-align: center;
+}
+
+.HeaderTop-button {
+  text-align: center;
+  }
 
 
 
 .HeaderLink {
-  height: 200px;
-  width: 810px;
-  padding: 0 70px;
-  margin: auto;
-}
-
-.HeaderLink-item {
-  width: 100px;
-  height: 50px;
-  background: #ffffff;
-  margin: 15px;
+  height: 100px;
+  width: 1450px;
   float: left;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
-  border-radius: 3px;
-  position: relative;
+  margin: auto;
 }
 
-.HeaderLink-name {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 10px;
-  margin: auto;
+.HeaderLink-eye {
+  height: 30px;
+  width: 200px;
+  padding-top: 10px;
+  margin-top: 40px;
+  margin-left: 260px;
+  float: left;
+  color: #ffffff;
+  background: #ff0000;
   text-align: center;
 }
 
-.HeaderLink-image {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 10px;
-  margin: auto;
-  height: auto;
-  width: 60%;
+.HeaderLink-rec {
+  height: 30px;
+  width: 200px;
+  padding-top: 10px;
+  margin-top: 40px;
+  margin-left: 40px;
+  float: left;
+  color: #ffffff;
+  background: #008000;
+  text-align: center;
+}
+
+.HeaderLink-nail {
+  height: 30px;
+  width: 200px;
+  padding-top: 10px;
+  margin-top: 40px;
+  margin-left: 40px;
+  float: left;
+  color: #ffffff;
+  background: #ffff00;
+  text-align: center;
+}
+
+.HeaderLink-hair {
+  height: 30px;
+  width: 200px;
+  padding-top: 10px;
+  margin-top: 40px;
+  margin-left: 40px;
+  float: left;
+  color: #ffffff;
+  background: #800080;
+  text-align: center;
 }
 
 
 
 .News {
-  padding: 20px 0;
-  background: #87ceeb;
-  width: 2000px;
-  height: 400px;
-
+  padding-top: 15px;
+  width: 1450px;
+  height: 215px;
+  float: left;
+  margin: 0　auto;
 }
 
-.News-inner {
-  margin: 0 auto;
+.News-list {
+  width: 500px;
+  height: 300px;
+  padding-left: 500px;
 }
 
-.News-logo {
-  display: inline-block;
-}
 
-.News-logo img {
-  height: 20px;
-}
-
-.News-logo p {
-  color: #b1c0c0;
-  font-size: 12px;
-}
-
-.News-inner ul {
-  text-align: center;
+.News-list li {
+  list-style: none;
 }
 
 .News-inner li {
-  color: #2b546a;
+  font-size: 15px;
+  text-align: center;
+}
+
+.News-logo {
+}
+
+.News-logo img {
 }
 
 
-
-.Service {
-  height: 300px;
-  width: 2000px;
+.Service-menu {
+  height: 700px;
+  width: 1450px;
   padding: 0px;
   margin: auto;
-  background: #ddd;
+  float: left;
+  background: #;
 }
+
+.Service-menu h1 {
+  font-size: 20px;
+  text-align: center;
+
+
+}
+
+.Service-hair {
+  height: 400px;
+  width: 300px;
+  padding-left: 240px;
+  background: #fff;
+  float: left;
+}
+
+.Service-hair img {
+  height: 250px;
+  width: 300px;
+}
+
+.Service-hair h2 {
+  color: #ff0000;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+
+
+.Service-list {
+  height: 400px;
+  width: 300px;
+  padding-left: 25px;
+  background: #fff;
+  float: left;
+}
+
+.Service-list img {
+  height: 250px;
+  width: 300px;
+}
+
+.Service-list h2 {
+  color: #0000ff;
+  font-size: 15px;
+  text-align: center;
+}
+
+.Service-list h3 {
+  color: #008000;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+
+
+
+
 
 .Store {
   height: 300px;
   width: 2000px;
   padding: 0px;
   margin: auto;
+  float: left;
   background: #87ceeb;
 }
 
@@ -156,6 +239,7 @@ html {
   width: 2000px;
   padding: 0px;
   margin: auto;
+  float: left;
   background: #ddd;
 }
 
@@ -164,14 +248,28 @@ html {
   width: 2000px;
   padding: 0px;
   margin: auto;
+  float: left;
   background: #87ceeb;
 }
+
+.Recruit {
+  height: 300px;
+  width: 600px;
+  background: #ddd;
+  background-image: url(https://lh3.googleusercontent.com/proxy/dxy0zWn3C1aH9bzmIn7drOcmyIXCpM2PMK3xqf51lIE2URxZzLq3WqTEPRiwfNrgOpBwbgbP28YMxMM_-bauhUa7r_MKZ8YZRA8H9aJj-ja_qlxcT1-CYaxdrfOqkQ);
+  background-size: cover;
+  margin: 0 auto;
+  float: left;
+}
+
+
 
 .Footer {
   height: 400px;
   width: 1000px;
   padding: 0px;
   margin: auto;
+  float: left;
 }
 
 .Footer h1{
