@@ -45,7 +45,7 @@ html {
   float: left;
   background: #;
   background-size: cover;
-  background-image: url(https://lh3.googleusercontent.com/proxy/AUYBdJmjbVKq6duaYkl0HGy0O6Ih2FVps9CaNxg2MmzLKKoCU5oTPiyGjbvTYohotO6UGjoz59rKHN6nwg6FBmmW8-9uTlVJQKOn7nn0);
+  background-image: url(https://lh3.googleusercontent.com/proxy/Qc4ntX7k8itOPjLwaqNSoUaOMhe9TPVb1yjUPnf1sC1BOfj_j7_iVRtHhziHIREmorxgZOSrnG0-sa-jp4WKml8LcEh11Oy3puwPOPSs);
 }
 
 .HeaderTop h1 {
@@ -225,19 +225,43 @@ html {
 
 
 
-.Store {
-  height: 300px;
-  width: 2000px;
+.Store-menu {
+  height: 250px;
+  width: 1450px;
   padding: 0px;
   margin: auto;
   float: left;
-  background: #87ceeb;
+  background: #fff;
+}
+
+.Store-text h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.Store-text p {
+  background: #;
+  text-align: center;
+}
+
+.Store-button {
+  height: 50px;
+  width: 1450px;
+  padding: 0px;
+  margin: auto;
+  float: left;
+  background: #;
+}
+
+.Store-button button {
+  margin-top: 10px;
+  margin-left: 665px;
 }
 
 
 
 .Interview-menu {
-  height: 580px;
+  height: 450px;
   width: 1450px;
   padding: 0px;
   margin: auto;
@@ -252,31 +276,21 @@ html {
   text-align: center;
 }
 
-.Interview-1 {
-  height: 400px;
-  width: 300px;
-  padding-left: 240px;
-  opacity: 4.0;
-  background: #fff;
-  float: left;
-}
-
 .Interview-1 img {
   height: 250px;
   width: 300px;
-}
-
-.Interview-2 {
-  height: 400px;
-  width: 300px;
-  padding-left: 25px;
-  background: #fff;
+  padding-left: 240px;
+  opacity:;
+  background: #;
   float: left;
 }
 
 .Interview-2 img {
   height: 250px;
   width: 300px;
+  padding-left: 25px;
+  background: #;
+  float: left;
 }
 
 
@@ -286,6 +300,7 @@ html {
   width: 1450px;
   padding: 0px;
   margin: auto;
+  margin-top: 100px;
   float: left;
   background: #fffafa;
 }
@@ -347,21 +362,23 @@ html {
 
 
 
-.Recruit {
+.Recruit-image {
   height: 300px;
-  width: 600px;
+  width: 650px;
   background: #ddd;
-  background-image: url(https://lh3.googleusercontent.com/proxy/Z5GBK4sK8Q_BV5f7kS5IuoSsDlvf5HSVt9YDP5jL_GgDGWsm6fas3Lic5hGhWhoms570gMVkSEoFNLIkfnjBmZsEtjhbLl6ibo69rMIZCcAJb6J57Cl4lHccTYl-qg);
+  background-image: url(https://lh3.googleusercontent.com/proxy/6_BPfkC6BTl_kZkeebjeVeMqSsj6EDIXTUrJgT_L-5CWFtKYWB5ybeZZri82TDa0b_cF9UwwjXHHJNVSgE9NJJZuPv4d6IRk8P4HCe6xfyavRxw5yjso46omEXZH5Q);
   background-size: cover;
-  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 400px;
   float: left;
 }
 
 
 
 .Footer {
-  height: 400px;
-  width: 1000px;
+  height: 300px;
+  width: 1450px;
   padding: 0px;
   margin: auto;
   float: left;
@@ -369,10 +386,12 @@ html {
 
 .Footer h1{
   font-size: 20px;
+  padding-left: 37px;
 }
 
 .Footer h2{
   font-size: 18px;
+  padding-left: 37px;
 }
 
 .Footer li{
@@ -382,7 +401,7 @@ html {
 .Footer-group {
   height: 400px;
   width: 250px;
-  padding: 0px;
+  padding-left: 225px;
   float: left;
 }
 
@@ -405,34 +424,4 @@ html {
   width: 250px;
   padding: 0px;
   float: left;
-}
-
-.Footer-item {
-  width: 240px;
-  height: 250px;
-  background: #ffffff;
-  margin: 15px;
-  float: left;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
-  border-radius: 3px;
-  position: relative;
-}
-
-.Footer-name {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 40px;
-  margin: auto;
-  text-align: center;
-}
-
-.Footer-image {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 40px;
-  margin: auto;
-  height: auto;
-  width: 60%;
 }

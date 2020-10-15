@@ -1,15 +1,24 @@
 import React from 'react';
 
-class Store extends React.Component {
+export class Store extends React.Component {
   render() {
     return (
-      <div className='language-item'>
-        <div className='language-name'></div>
-        <img className='language-image' src='https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/html.svg' />
+      <div className='Store-menu'>
+
+        <div className='Store-text'>
+          <h2>店舗展開</h2>
+          <p>タカミグループは、地域のお客様に美容を通じて</p>
+          <p>喜んでいただけることをスタッフ全員で創造し続けます。</p>
+          <p>各店舗いろいろなサービスをご用意しておりますので、ぜひ、ご来店くださいませ。</p>
+        </div>
+
+        <div className='Store-button'>
+          <a><button>お近くのショップを探す</button></a>
+        </div>
+
       </div>
     );
   }
 }
 
-// Languageコンポーネントをエクスポートしてください
 export default Store;

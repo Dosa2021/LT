@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Service extends React.Component {
+export default class extends React.Component {
   render() {
     return (
       <div className='Service-menu'>
@@ -36,6 +36,3 @@ class Service extends React.Component {
     );
   }
 }
-
-// Languageコンポーネントをエクスポートしてください
-export default Service;

@@ -12,7 +12,6 @@ class HeaderTop extends React.Component {
           <p>明日への活力の源を発信し続ける</p>
           <p>そんな空間を創り出すカンパニーです。</p>
           <p><button className='HeaderTop-button'>お近くのサロンを探す</button></p>
-
       </div>
     );
   }
